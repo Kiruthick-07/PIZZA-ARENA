@@ -2,15 +2,19 @@ body{
     margin: 0px;
     padding: 0px;
 }
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap'); 
+body{
+     font-family: 'Lato', sans-serif; 
+}
 .div1{
     position: relative;
 }
 .nametag1{
     position: absolute;
     top: 170px;
-    right: 330px;
+    right: 310px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
-    font-size: 55px;
+    font-size: 60px;
     font-weight: 500;
     color: rgb(66, 64, 64);
 }
@@ -25,7 +29,57 @@ body{
     color: whitesmoke;
     font-weight: 500px;
 }
+
+.div1 button{
+    border-radius: 20px;
+    position: absolute;
+    top: 350px;
+    right: 460px;
+    padding: 7px;
+    font-weight: 700;
+    border-color: bisque;
+    background-color: bisque;
+    transition: 0.5s;
+    font-size: 15px;
+    color: rgb(65, 55, 18);
+    
+}
+.div1 button:hover{
+    transition: 0.5s;
+    color: rgb(63, 53, 53);
+    background-color: beige;
+}
+
+li{
+    list-style: none;
+    display: inline;
+    margin-left: 20px;
+    padding: 10px;
+    transition: 0.5s;
+    font-weight: 1000px;
+}
+.menu{
+    top: 40px;
+    position: absolute;
+    right: 50px;
+    font-weight: 750;
+    color: rgb(82, 88, 88);
+  
+}
+#li1:hover{
+    color: black;
+    text-shadow: 10px;
+    
+}
 .logo{
     position: absolute;
-    top: -10px;
+    top: 0px;
+}
+.div2{
+    background-color: bisque;
+}
+.search{
+    border-style: solid;
+    border-radius: 10px;
+    padding: 50px;
 }
