@@ -8,6 +8,7 @@ body{
 }
 .div1{
     position: relative;
+    width: 100%;
 }
 .nametag1{
     position: absolute;
@@ -53,7 +54,7 @@ body{
 li{
     list-style: none;
     display: inline;
-    margin-left: 20px;
+    margin-left: 15px;
     padding: 10px;
     transition: 0.5s;
     font-weight: 1000px;
@@ -61,7 +62,7 @@ li{
 .menu{
     top: 40px;
     position: absolute;
-    right: 50px;
+    right: 5px;
     font-weight: 750;
     color: rgb(82, 88, 88);
   
@@ -69,6 +70,8 @@ li{
 #li1:hover{
     color: black;
     text-shadow: 10px;
+    background-color: rgb(154, 235, 235);
+    border-radius: 40px;
     
 }
 .logo{
@@ -76,10 +79,164 @@ li{
     top: 0px;
 }
 .div2{
-    background-color: bisque;
+    background-color: rgb(199, 238, 251);
+    position:absolute;
+    top: 500px;
+    width: 100%;
+    height: 50%;
 }
+/*.button{
+    position: sticky;
+}*/
 .search{
     border-style: solid;
     border-radius: 10px;
-    padding: 50px;
+    padding: 10px;
+    opacity: 60%;
+    box-flex-group: rgb(200, 224, 232); ;
+}
+.tag1{
+    font-size: 50px;
+    margin-left: 20px;
+    
+}
+.tag2{
+    font-size: 35px;
+    top: 74px;
+    position: absolute;
+    margin-left: 20px;
+    /*color: rgb(11, 195, 167);*/
+}
+.tag3{
+    font-size: 13px;
+    top: 135px;
+    position: absolute;
+    margin-left: 20px;
+    color: rgb(18, 164, 145);
+}
+.input1{
+    margin-left: 590px;
+    border-radius: 20px;
+    border-style: solid;
+    padding: 20px;
+    width: 35%;
+    top: 80px;
+    position: absolute;
+}
+.div3{
+    background-color: beige;
+    position: absolute;
+    width: 100%;
+    top: 700px;
+    
+}
+.gateway{
+    margin-left: 40px;
+    margin-top: 15px;
+    transition: 0.5s;
+    display: inline-block;
+    
+}
+.gateway img{
+    border-radius: 10px;
+}
+.gateway p{
+    font-weight: 700;
+    
+}
+#p{
+    color: red;
+    position: absolute;
+    top: 337px;
+}
+#p4{
+    color: red;
+    position: absolute;
+    top: 337px;
+}
+.gateway:hover{
+    display: inline-block;
+    transition: 0.5s;
+    
+}
+.tajmahal{
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 35px;
+    transition: 0.5s;
+    
+}
+.tajmahal img{
+    border-radius: 10px;
+}
+.tajmahal p{
+    font-weight: 700;
+}
+#p1{
+    color: red;
+    position: absolute;
+    top: 337px;
+}
+.temple{
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 35px;
+    transition: 0.5s;
+}
+.temple img{
+    border-radius: 10px;
+}
+.temple p{
+    font-weight: 700;
+}
+#p2{
+    color: red;
+    position: absolute;
+    top: 337px;
+}
+#p3{
+    color: red;
+    position: absolute;
+    top: 337px;
+}
+.munnar{
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 35px;
+    transition: 0.5s;
+}
+.munnar img{
+    border-radius: 10px;
+}
+.munnar p{
+    font-weight: 700;
+}
+.manali{
+    display: inline-block;
+    margin-left: 40px;
+    margin-bottom: 35px;
+    transition: 0.5s;
+}
+.manali img{
+    border-radius: 10px;
+}
+.manali p{
+    font-weight: 700;
+}
+.tajmahal:hover{
+    display: inline-block;
+     transition: 0.5s;
+     
+}
+.manali:hover{
+    display: inline-block;
+    transition: 0.5s;
+}
+.munnar:hover{
+    display: inline-block;
+    transition: 0.5s;
+}
+.temple:hover{
+    display: inline-block;
+    transition: 0.5s;
 }
