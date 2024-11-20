@@ -335,3 +335,28 @@ li{
     background-color: antiquewhite;
     position: absolute;
 }
+.left,.right{
+    width: 20px;
+    height: 20px;
+    float: left;
+    cursor: pointer;
+    box-shadow: -2px 2px 0 rgb(119, 118, 118);
+    position: absolute;
+    z-index: 1;
+    
+}
+.left{
+    top: 250px;
+    left: 50px;
+    z-index: 1;
+    transform:rotate(45deg)
+}
+.right{
+    top:250px;
+    right: 40px;
+    z-index: 1;
+    transform: rotate(225deg);
+}
+.left:hover,.right:hover{
+    box-shadow: rgb(8, 8, 8);
+}
