@@ -58,6 +58,7 @@ li{
     padding: 10px;
     transition: 0.5s;
     font-weight: 1000px;
+    #text-decoration: none;
 }
 .menu{
     top: 40px;
@@ -72,7 +73,14 @@ li{
     text-shadow: 10px;
     background-color: rgb(154, 235, 235);
     border-radius: 40px;
-    
+}
+#l1,#l2{
+    text-decoration: none;
+    color: black;
+
+}
+#l2:hover{
+    color: rgb(241, 129, 9);
 }
 .logo{
     position: absolute;
@@ -239,4 +247,91 @@ li{
 .temple:hover{
     display: inline-block;
     transition: 0.5s;
+}
+.agrafort{
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 27px;
+    transition: 0.5s;
+}
+.agrafort p{
+    font-weight: 700;
+}
+.agrafort img{
+    border-radius: 10px;
+}
+#p5{
+    color: red;
+    position: absolute;
+    top: 655px;
+}
+.goldentemple{
+    display: inline-block;
+    margin-left: 40px;
+    margin-top:27px;
+    transition: 0.5s;
+}
+.goldentemple p{
+    font-weight: 700;
+}
+.goldentemple img{
+    border-radius: 10px;
+}
+#p6{
+    color: red;
+    position: absolute;
+    top: 655px;
+}
+.valluvar{
+    display: inline-block;
+    margin-left: 40px;
+    margin-top:27px;
+    transition: 0.5s;
+}
+.valluvar p{
+    font-weight: 700;
+}
+.valluvar img{
+    border-radius: 10px;
+}
+#p7{
+    color: red;
+    position: absolute;
+    top: 655px;
+}
+.mahabalipuram{
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 27px;
+    transition: 0.5s;
+}
+.mahabalipuram p{
+    font-weight: 700;
+}
+.mahabalipuram img{
+    border-radius: 10px;
+}
+.himalayas{
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 27px;
+    transition: 0.5s;
+}
+.himalayas p{
+    font-weight: 700;
+}
+.himalayas img{
+    border-radius: 10px;
+}
+#a1{
+    margin-top: 10px;
+    position: absolute;
+}
+#l1{
+    color: rgb(82, 88, 88);
+    list-style: none;
+}
+.div4{
+    background-color: antiquewhite;
+    position: absolute;
 }
